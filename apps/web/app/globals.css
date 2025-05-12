@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 6%;
+  --foreground: 0 0% 100%;
+  --primary: 263 70% 58%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 10%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 0 0% 16%;
+  --border: 0 0% 16%;
+  --muted: 0 0% 16%;
+  --muted-foreground: 240 5% 65%;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.uploadcare--widget__button {
+  background-color: transparent !important;
+  color: white !important;
+  border: 1px dashed #2a2a2a !important;
+}
+
+.uploadcare--widget__button:hover {
+  background-color: #2a2a2a !important;
+}
